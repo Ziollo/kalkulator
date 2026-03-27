@@ -12,7 +12,6 @@ Projekt wyróżnia się nowoczesnym designem (tzw. Neumorphism/Glassmorphism) or
 *  **W planach (Kalkulator Walutowy):** Moduł pozwalający na przeliczanie walut w czasie rzeczywistym.
 
 ##  Wygląd aplikacji 
-*(Dodaj zrzuty ekranu do folderu w repozytorium i podmień ścieżki poniżej)*
 
 | Tryb Ciemny (Dark Mode) | Tryb Jasny (Light Mode) |
 | :---: | :---: | 
