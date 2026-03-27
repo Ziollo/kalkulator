@@ -2,7 +2,7 @@
 
 Estetyczny i w pełni responsywny kalkulator działający w przeglądarce, napisany od zera w technologiach front-endowych (HTML, CSS, JavaScript). 
 
-Projekt wyróżnia się nowoczesnym designem (tzw. Neumorphism/Glassmorphism) oraz płynnie działającym przełącznikiem motywów (Dark Mode / Light Mode). W najbliższej przyszłości aplikacja **zostanie rozbudowana o moduł kalkulatora walutowego**, pobierający aktualne kursy z zewnętrznego API.
+Projekt wyróżnia się nowoczesnym designem  oraz płynnie działającym przełącznikiem motywów (Dark Mode / Light Mode). W najbliższej przyszłości aplikacja **zostanie rozbudowana o moduł kalkulatora walutowego**, pobierający aktualne kursy z zewnętrznego API.
 
 ##  Funkcje
 
