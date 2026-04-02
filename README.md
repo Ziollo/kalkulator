@@ -16,7 +16,7 @@ Projekt wyróżnia się estetycznym interfejsem (Neumorphism), płynnymi przejś
 
 | Kalkulator Standardowy | Kalkulator Walutowy |
 | :---: | :---: | 
-| ![Standard](img/standard.png) | ![Waluty](img/waluty.png) |
+| ![Standard](standard.png) | ![Waluty](waluty.png) |
 
 ##  Technologie
 
