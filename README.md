@@ -1,8 +1,8 @@
 # Wielofunkcyjny Kalkulator (Standardowy & Walutowy)
 
-Nowoczesna aplikacja webowa napisana w czystym HTML, CSS i JavaScript, oferująca dwa w pełni funkcjonalne moduły: zaawansowany kalkulator matematyczny oraz kalkulator walutowy pobierający kursy na żywo.
+Nowoczesna aplikacja webowa napisana w czystym HTML, CSS i JavaScript, oferująca dwa w pełni funkcjonalne moduły: prosty kalkulator matematyczny oraz kalkulator walutowy pobierający kursy na żywo.
 
-Projekt wyróżnia się estetycznym interfejsem (Neumorphism), płynnymi przejściami oraz świetnym User Experience (obsługa klawiatury, przełączniki motywów i trybów).
+Projekt wyróżnia się estetycznym interfejsem, płynnymi przejściami oraz świetnym User Experience (obsługa klawiatury, przełączniki motywów i trybów).
 
 ##  Funkcje
 
