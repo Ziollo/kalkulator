@@ -1,0 +1,50 @@
+/*  wyświetalacz dla walut */
+.display-area {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.currency-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.currency-select {
+    background: transparent;
+    color: var(--button-text);
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 0;
+}
+
+.currency-select option {
+    background-color: var(--calc-bg);
+    color: var(--text);
+}
+
+.currency-input {
+    color: var(--text);
+    text-align: right;
+    width: 60%;
+    background: transparent;
+    border: none;
+    font-size: 42px;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--line);
+    margin: 15px 0;
+    width: 100%;
+}
+#keys input[value="00"], #keys input[value="0"] {
+    width: 150px;
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+    --bacground: linear-gradient(135deg, #1e2024 0%, #0f1012 100%);
+    --calc-bg: #1a1d21;
+    --text: #ffffff;
+    --line: rgba(255, 255, 255, 0.1);
+    --button-bacground: #25292e;
+    --button-text: #efefef;
+    --button-func-bacground: #343a40;
+    --accent-color: #00d4ff;
+    --shadow: rgba(0, 0, 0, 0.6);
+}
+
+.light-mode {
+    --bacground: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+    --calc-bg: #f8f9fa;
+    --text: #2d3436;
+    --line: rgba(0, 0, 0, 0.08);
+    --button-bacground: #e2e6ea;
+    --button-text: #495057;
+    --button-func-bacground: #ced4da;
+    --accent-color: #0984e3;
+    --shadow: rgba(0, 0, 0, 0.05);
+}
+
+body {
+    background: var(--bacground);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+    border-bottom: 1px solid var(--line);
+    position: relative;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* przełącznik kolorów */
+
+.toggle-container {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 22px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--button-func-bacground);
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    bottom: 3px;
+    background-color: var(--accent-color);
+    transition: .4s;
+    border-radius: 50%;
+}
+.mode-label{
+    margin: 10px;
+}
+
+input:checked + .slider:before {
+    transform: translateX(22px);
+}
+
+/* przyciski funkcji  */
+
+.funcion {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.funcion-mode{
+    margin: 10px;
+}
+
+/* kalkulator */
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 60px 0;
+}
+
+.calc-box{
+    margin: 30px;
+    background-color: var(--calc-bg);
+    border-radius: 35px;
+    padding: 30px;
+    width: 320px;
+    box-shadow: 0 40px 80px -15px var(--shadow);
+    border: 1px solid var(--line);
+}
+
+#results {
+    color: var(--text);
+    text-align: right;
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-size: 48px;
+    margin-bottom: 25px;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+
+/* przyciski */
+#keys input[type="button"] {
+    background-color: var(--button-bacground);
+    color: var(--button-text);
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#keys input[type="button"]:hover {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+#keys input.a, #keys input.x {
+    background-color: var(--button-func-bacground);
+    color: var(--accent-color);
+}
+
+#keys input[value="="] {
+    width: 145px;
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+
+footer {
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+    border-top: 1px solid var(--line);
+    margin-top: auto;
+    font-size: 12px;
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
