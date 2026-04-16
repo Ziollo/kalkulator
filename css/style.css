@@ -195,3 +195,31 @@ footer {
     opacity: 0.5;
     letter-spacing: 1px;
 }
+
+@media screen and (max-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 15px;
+        box-sizing: border-box;
+    }
+
+
+    .funcion, .toggle-container {
+        position: static;
+        transform: none;
+    }
+
+
+    header h1 {
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin: 0;
+        text-align: center;
+        flex: 1;
+    }
+    .mode-label, .funcion-mode {
+        margin: 5px;
+        font-size: 12px;
+    }
